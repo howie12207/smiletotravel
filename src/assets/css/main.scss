@@ -1,0 +1,33 @@
+/* main color */
+$blue: #1f2839;
+$peacock: #376478;
+$red: #de6b48;
+$gray: #7d7f8c;
+$coffee: #bb954a;
+$gold: #cc9900;
+$title: #2a2e43;
+$text: #414452;
+$green: #469b12;
+$deep-green: #0aad20;
+
+.gold {
+    color: $gold;
+}
+/* font-family */
+body {
+    font-family: '微軟正黑體', sans-serif;
+}
+/* animation */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+/* a link */
+a {
+    text-decoration: none;
+}
